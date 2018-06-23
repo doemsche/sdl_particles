@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24360E520DE672400726E75 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C24360E320DE672400726E75 /* Screen.cpp */; };
 		C27E462620DAA62100FB7AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27E462520DAA62100FB7AFE /* main.cpp */; };
 		C27E462E20DAA70300FB7AFE /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C27E462D20DAA70300FB7AFE /* libSDL2-2.0.0.dylib */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C24360E320DE672400726E75 /* Screen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		C24360E620DE676A00726E75 /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
 		C27E462220DAA62100FB7AFE /* SDL Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SDL Tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27E462520DAA62100FB7AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C27E462D20DAA70300FB7AFE /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2/2.0.8/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				C27E462520DAA62100FB7AFE /* main.cpp */,
+				C24360E320DE672400726E75 /* Screen.cpp */,
+				C24360E620DE676A00726E75 /* Screen.h */,
 			);
 			path = "SDL Tutorial";
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27E462620DAA62100FB7AFE /* main.cpp in Sources */,
+				C24360E520DE672400726E75 /* Screen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
